@@ -7,7 +7,7 @@ public class OuterClass {
 
 	
 	public void outerMethod() {
-		//System.out.println("This is from outer Method");
+		System.out.println("This is from outer Method");
 		innerA.innerAMethod();
 		innerB.innerBMethod();
 	}
